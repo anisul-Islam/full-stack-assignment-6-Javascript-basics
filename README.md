@@ -30,3 +30,7 @@ Covering the topics of assignment, relational, logical operatiors and conditiona
 
    - Create the project as per the above requirements.
    - Deploy the project on netlify and add the Deoployed link in the Pull Request (PR)
+
+## Deployed link
+
+https://vowel-digit-odd.netlify.app/
