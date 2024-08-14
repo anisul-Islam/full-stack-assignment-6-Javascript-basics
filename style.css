@@ -13,15 +13,15 @@
 }
 .program-container{
   width: 500px;
-  height: 400px;
+  height: 450px;
   background-color: lightskyblue;
   border-radius: 20px;
  
 }
 #program1{
-  width: 99%;
-  height: 130px;
-  border: 1px solid black;
+  width: 98%;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   background-color: transparent;
   color: white;
@@ -29,5 +29,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+    margin-top: 20px;
+
+}
+#program2{
+  width: 98%;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 5px; */
+    margin-top: 20px;
+
+}
+#program3{
+  width: 98%;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 15px; */
+  margin-top: 20px;
 }
