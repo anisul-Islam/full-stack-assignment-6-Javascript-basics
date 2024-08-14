@@ -1,0 +1,43 @@
+* {
+    font-family: emoji;
+}
+
+body {
+   background-color: #b5e193;
+}
+
+.container {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    margin-top: 210px;
+}
+
+.title-text h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.main-body {
+    text-align: center;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+    font-size: 35px;
+    padding: 12px;
+    border-radius: 34px;
+    border-style: none;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+    background: #1fd782;
+    color: aliceblue;
+    cursor: pointer;
+}
