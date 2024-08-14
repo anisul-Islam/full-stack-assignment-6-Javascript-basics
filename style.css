@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#programs{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 100vh;
+  border: 1px solid brown;
+
+}
+.program-container{
+  width: 500px;
+  height: 400px;
+  background-color: lightskyblue;
+  border-radius: 20px;
+ 
+}
+#program1{
+  width: 99%;
+  height: 130px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}

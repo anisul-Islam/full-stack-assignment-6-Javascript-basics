@@ -9,7 +9,7 @@ if (
   letter === "o" ||
   letter === "u"
 ) {
-  document.getElementById("program1").innerHTML = `Letter is vowel`;
+  document.getElementById("program1").innerHTML = `Letter is Vowel`;
 } else if (letter === "b" ||
     letter === "c" ||
     letter === "d" || 
@@ -31,7 +31,7 @@ if (
          letter === "x" || 
          letter === "y" || 
          letter === "z"){
-    document.getElementById("program1").innerHTML = ` Letter is consonant`;
+    document.getElementById("program1").innerHTML = ` Letter is Consonant`;
 
 
 }
