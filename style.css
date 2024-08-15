@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #ccffff 0%, #ffffff 100%);
+}
+h1{
+    margin-top:40vh ;
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    
+    animation-name:button ;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    animation-delay:2s;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border-width: 0.2px;
+    border-color: mintcream;
+}
+button:hover{
+    background-color: greenyellow;
+    border:none;
+    color:red;
+    border-radius: 10px;
+    box-shadow:  2px 3px white;
+
+}
+
+@keyframes button{
+    from{
+        background-color: #89ABE3FF;
+    }
+    to{
+        background-color: #FAD0C9FF; }
+}
