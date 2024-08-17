@@ -1,6 +1,6 @@
 //  even or odd using if , else
 
-const num = prompt("Enter a number: ");
+let num = prompt("Enter a number: ");
 
 //check if the number is even
 if (num % 2 == 0) {
