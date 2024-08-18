@@ -3,7 +3,7 @@ let ans = document.getElementById("Vowel-Consonant-ans");
 let chkButton = document.getElementById("Vowel-Consonant-check")
 chkButton.onclick = function (){
     let usrInputLettervalue = usrInputLetter.value;
-    let usrInput = usrInputLettervalue;
+    let usrInput = usrInputLettervalue.toLowerCase();
     if(/^[a-zA-Z]$/.test(usrInputLettervalue) && !usrInput == "" && !usrInput == " "){
         if(usrInput == 'a' || usrInput == 'e' || usrInput == 'o' || usrInput == 'i' || usrInput == 'u'){
             ans.textContent = `"${usrInputLettervalue}" is a Vowel`
