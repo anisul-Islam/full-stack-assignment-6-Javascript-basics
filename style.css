@@ -17,14 +17,14 @@ html {
     align-items: center;
     background-color: rgb(208, 193, 243);
     width: 90%;
-    height: 100vh;
+    height: auto;
     border-radius: 1rem;
     font-size: 150%;
 
 }
 .vowel-consonent {
     box-sizing: border-box;
-    height: 200px;
+    height: 300px;
     width: 50%;
     padding: 1rem;
     border-radius: 1rem;
@@ -32,11 +32,16 @@ html {
     text-align: center;
     margin: 1rem;
     background-color: #fff;
+    border: solid;
+    border-image-source: url(images/borderImage.avif);
+    border-image-slice: 100;
+    border-image-width: 20;
+   
 }
 
 .even-noneven {
     box-sizing: border-box;
-    height: 200px;
+    height: 300px;
     width: 50%;
     padding: 1rem;
     border-radius: 1rem;
@@ -44,11 +49,15 @@ html {
     text-align: center;
     margin: 1rem;
     background-color: #fff;
+    border: solid;
+    border-image-source: url(images/borderImage.avif);
+    border-image-slice: 100;
+    border-image-width: 20;
 }
 
 .digit {
     box-sizing: border-box;
-    height: 200px;
+    height: 300px;
     width: 50%;
     padding: 1rem;
     border-radius: 1rem;
@@ -56,10 +65,16 @@ html {
     text-align: center;
     margin: 1rem;
     background-color: #fff;
+    border: solid;
+    border-image-source: url(images/borderImage.avif);
+    border-image-slice: 100;
+    border-image-width: 20;
 }
+
 
 h3 {
     text-decoration: underline;
+    padding-bottom: 1rem;
 }
 p {
     margin: 1rem;
@@ -76,6 +91,7 @@ button {
     margin-top: 1rem;
     outline: none;
     border: none;
+    margin-top: 3rem;
 }
 button:hover {
     box-shadow: 0 5px 10px 0 rgb(190, 190, 214);
