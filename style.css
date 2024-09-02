@@ -36,7 +36,9 @@ html {
     border-image-source: url(images/borderImage.avif);
     border-image-slice: 100;
     border-image-width: 20;
-   
+    border-image-repeat: round;
+    /* border-image-outset: 10; */
+    
 }
 
 .even-noneven {
@@ -50,9 +52,11 @@ html {
     margin: 1rem;
     background-color: #fff;
     border: solid;
-    border-image-source: url(images/borderImage.avif);
+    /* border-image-source: url(images/borderImage.avif); */
+    border-image-source: repeating-linear-gradient(rgb(0, 255, 98), rgb(255, 81, 0));
     border-image-slice: 100;
-    border-image-width: 20;
+    border-image-width: 3;
+    border-image-repeat: round;
 }
 
 .digit {
@@ -66,9 +70,11 @@ html {
     margin: 1rem;
     background-color: #fff;
     border: solid;
-    border-image-source: url(images/borderImage.avif);
+    /* border-image-source: url(images/borderImage.avif); */
+    border-image-source: linear-gradient(rgb(221, 120, 120), blue, white, green);
     border-image-slice: 100;
-    border-image-width: 20;
+    border-image-width: 4;
+    border-image-repeat: round;
 }
 
 
