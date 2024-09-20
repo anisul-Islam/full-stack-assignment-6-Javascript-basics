@@ -1,0 +1,68 @@
+
+
+
+body{
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    margin: 2rem;
+    text-align: ;
+    padding: 0;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.interContainer{
+    background-color: rgb(141, 193, 241); 
+    border: 0;
+    border-radius: 1.5rem;
+}
+ h3{
+    padding: 0.9rem;
+ }
+
+button {
+    background-color: #376939;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+#id1{
+    color: rgb(17, 14, 14);
+  
+}
+#id2{
+    color: rgb(17, 14, 14);
+  
+}
+#id3{
+    color: rgb(17, 14, 14);
+  
+}
