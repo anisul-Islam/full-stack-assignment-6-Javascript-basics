@@ -89,7 +89,7 @@ h3, p {
     background-color: #fff;
 }
 
-button {
+.btn1 {
     padding: 1rem 4rem;
     background-color: rgb(50, 50, 235);
     color: white;
@@ -99,7 +99,7 @@ button {
     border: none;
     margin-top: 3rem;
 }
-button:hover {
+.btn1:hover {
     box-shadow: 0 5px 10px 0 rgb(190, 190, 214);
     transition: all 1s;
 }
@@ -108,7 +108,7 @@ button:hover {
  h3, p {
     font-size: 1rem;
  }
- button {
+ .btn1 {
     padding: 0.5rem;
  }
 }
