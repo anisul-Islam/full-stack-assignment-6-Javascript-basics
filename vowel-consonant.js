@@ -7,7 +7,7 @@ function vowelConsonent() {
     letter = letter.toLowerCase();
     
 
-    if  ( letter = !/^[a-z]$/.test(letter)) {
+    if  (!/^[a-z]$/.test(letter)) {
         console.log("invalid Input");
         } else if (
         letter === "a" ||
